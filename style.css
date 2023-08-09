@@ -1,0 +1,175 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a warm background color */
+body {
+    background-color: #f4f1ea;
+    font-family: Arial, sans-serif;
+    color: #333;
+    body {
+    font-family: 'Roboto Mono', monospace; /* Apply the "Roboto Mono" font */
+    /* Other body styles */
+}
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///C:/Users/mmmil/Downloads/johnny-automatic-Viking-pointing-1.svg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+
+
+/* Style the header */
+header {
+    background-color: #ff684e;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #ff684e;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Style the header image */
+header img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 63px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #ff684e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the navigation menu */
+nav ul {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d4b483;
+}
+/* Style the section images */
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Center the section in the middle of the page */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the section height to cover the full viewport height */
+    background-size: cover;
+}
+
+/* Style the section */
+section {
+    text-align: center;
+    max-width: 800px; /* Set a maximum width for better readability */
+    padding: 20px; /* Add padding to create spacing within the section */
+    border: 1px solid #ccc; /* Add a border for separation */
+    border-radius: 10px; /* Add rounded corners for a nicer appearance */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+}
+
+
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+em {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #ff684e;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #ff684e;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #d4b483;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b99f65;
+}
+/* Define the primary button styles */
+.primary-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d4b483;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #b99f65;
+}
